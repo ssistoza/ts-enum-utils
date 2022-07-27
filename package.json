@@ -1,9 +1,16 @@
 {
   "name": "ts-enum-utils",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "dis/index.js",
   "author": "Shane Avery Sistoza <me@ssistoza.dev> (http://ssistoza.github.io/)",
+  "keywords": [
+    "typescript",
+    "enum"
+  ],
   "license": "MIT",
+  "dependencies": {
+    "ts-toolbelt": "^9.6.0"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",
@@ -13,11 +20,9 @@
     "vitest": "^0.19.1"
   },
   "packageManager": "yarn@3.2.2",
-  "dependencies": {
-    "ts-toolbelt": "^9.6.0"
-  },
   "scripts": {
     "prebuild": "rm -rf dist",
-    "build": "tsc --project tsconfig.build.json"
+    "build": "tsc --project tsconfig.build.json",
+    "test": "vitest"
   }
 }
