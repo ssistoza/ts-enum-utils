@@ -9,20 +9,20 @@ At the moment this library can only be consumed as an ES Module.
 Using yarn:
 
 ```
-yarn add ts-enum-utils
+yarn add @ssistoza/ts-enum-utils
 ```
 
 Using npm:
 
 ```
-npm i ts-enum-utils
+npm i @ssistoza/ts-enum-utils
 ```
 
 ### Usage
 
 Using `BaseEnumUtil`:
 
-```
+```ts
 import { BaseEnumUtil } from 'ts-enum-utils';
 
 export enum Role {
