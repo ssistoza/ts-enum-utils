@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "dis/index.js",
   "author": "Shane Avery Sistoza <me@ssistoza.dev> (http://ssistoza.github.io/)",
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "typescript",
     "enum"
