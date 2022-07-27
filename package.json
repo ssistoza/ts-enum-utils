@@ -1,7 +1,7 @@
 {
   "name": "ts-enum-utils",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "author": "Shane Avery Sistoza <me@ssistoza.dev> (http://ssistoza.github.io/)",
   "license": "MIT",
   "devDependencies": {
@@ -15,5 +15,9 @@
   "packageManager": "yarn@3.2.2",
   "dependencies": {
     "ts-toolbelt": "^9.6.0"
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc --project tsconfig.build.json"
   }
 }
