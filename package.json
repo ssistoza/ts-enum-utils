@@ -1,5 +1,5 @@
 {
-  "name": "ts-enum-utils",
+  "name": "@ssistoza/ts-enum-utils",
   "version": "1.0.0",
   "main": "dis/index.js",
   "author": "Shane Avery Sistoza <me@ssistoza.dev> (http://ssistoza.github.io/)",
@@ -20,6 +20,10 @@
     "vitest": "^0.19.1"
   },
   "packageManager": "yarn@3.2.2",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "tsc --project tsconfig.build.json",
